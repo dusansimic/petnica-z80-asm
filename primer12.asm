@@ -122,7 +122,7 @@ MOVE_DOWN:
 	PUSH	AF
 	LD	DE,32
 	LD	BC,-32
-	ADD	HL,DE	; Kao smanji... idi gore pa vidi boju
+	ADD	HL,DE	; Kao povecaj... idi dole pa vidi boju
 	LD	A,WALL
 	CP	(HL)
 	JP	Z,MD_SKIP
